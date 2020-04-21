@@ -36,6 +36,7 @@ Connect your GPIB adapter (I have used 82357B USB adapter - both genuine and clo
 Install Python 2.7.x (I have tested with 2.7.13)
 Install PyVisa library into Python
 Connect your IFR 2398 or LG SA-7270 to the GPIB bus and set your SA to ID 7
+(This should work via the RS232 port, but I've not tried it)
 If you don't have a GPIB port on your SA, a generic ribbon to IEEE488 connector does work - I used one from an Agilent sig gen I had laying around
 Execute '2398 Dump Full.py' to back up the cal data
 Edit '2398 Restore Full.py' with the name of backup file (line 38, or search for backupFileName), and execute to restore the backup of the cal data
