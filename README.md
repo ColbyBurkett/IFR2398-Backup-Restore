@@ -1,7 +1,7 @@
 # IFR2398-Backup-Restore
  After many years of on/off work, I have finally completed the Backup/Restore scripts to a point where they're usable. These two scripts perform the function of the FCAL2398 Backup/Restore options.
 
-###Automatically dump to file (DONE!):
+### Automatically dump to file (DONE!):
 - Receiver Flatness (RXFLAT)
 - 0dB-50dB Tables w/all four frequency groups
 - IF Attenuator (IFATT)
@@ -9,7 +9,7 @@
 - Span Attenuator (SPANATT)
 - LOG Adjustments w/all RBW values (LOGTBL)
 
-###Automatically restore from file (DONE!):
+### Automatically restore from file (DONE!):
 - Unit Manufacturer/Model between IFR or LG
 - Serial Number
 - Receiver Flatness
@@ -18,7 +18,7 @@
 - Span Attenuator
 - LOG Adjustments
 
-###Remaining work:
+### Remaining work:
 - Calibrate using one of many possible methods
 - With the backup/restore process working, and leveraging the Service Manual calibration steps as clues, it should be a fairly trivial task to get the calibration process done. My only issue is this: I've run out of working analyzers to test the cal process with!! If I can get a good, working unit, I'll resume work
 - FM Sweep Gain dump/set (easy to do manually, though)
@@ -27,7 +27,7 @@
 - YIG Offset dump/set (easy to do manually, though)
 - Tracking Generator calibration dump/restore
 
-###To use:
+### To use:
 - Install your KeySight I/O libraries. I have tested with 18.1.x
 - Connect your GPIB adapter (I have used 82357B USB adapter - both genuine and clone)
 - Install Python 2.7.x (I have tested with 2.7.13)
@@ -38,5 +38,5 @@
 ```
 Passwords are 72237908 for the system menu, and 27329780 for the cal menu (notice the pattern? 2398 & 7270 weaved together)
 ```
-###More Info
+### More Info
 There is a Google Group for like minded people: https://groups.google.com/forum/#!topic/aeroflex-ifr-2398/
