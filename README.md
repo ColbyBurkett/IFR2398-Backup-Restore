@@ -38,3 +38,4 @@ To use:
 ```
 Passwords are 72237908 for the system menu, and 27329780 for the cal menu (notice the pattern? 2398 & 7270 weaved together)
 ```
+There is a Google Group for like minded people: https://groups.google.com/forum/#!topic/aeroflex-ifr-2398/
