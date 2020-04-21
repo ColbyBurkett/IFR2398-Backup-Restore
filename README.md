@@ -35,6 +35,7 @@ To use:
 - Connect your IFR 2398 or LG SA-7270 to the GPIB bus and set your SA to ID 7 (If you don't have a GPIB port on your SA, a generic ribbon to IEEE488 connector does work - I used one from an Agilent sig gen I had laying around. Alternatively, some simple changes might make this work with RS232)
 - Execute '2398 Dump Full.py' to back up the cal data
 - Edit '2398 Restore Full.py' with the name of backup file (line 38, or search for backupFileName), and execute to restore the backup of the cal data. *Note: You might need to unlock the IFR2398 to perform the restore. There is a front panel code for this:
+
 '''
 Passwords are 72237908 for the system menu, and 27329780 for the cal menu (notice the pattern? 2398 & 7270 weaved together)
 '''
