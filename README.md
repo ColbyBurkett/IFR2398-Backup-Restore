@@ -19,15 +19,13 @@ Automatically restore from file (DONE!):
 - LOG Adjustments
 
 Remaining work:
-
->Calibrate using one of many possible methods
->With the backup/restore process working, and leveraging the Service Manual calibration steps as clues, it should be a fairly trivial task to get the calibration process done
->My only issue is this: I've run out of working analyzers to test the cal process with!! If I can get a good, working unit, I'll resume work
->FM Sweep Gain dump/set (easy to do manually, though)
->Coarse Sweep GainS/GainF dump/set (easy to do manually, though)
->YIG Slope dump/set (easy to do manually, though)
->YIG Offset dump/set (easy to do manually, though)
->Tracking Generator calibration dump/restore
+- Calibrate using one of many possible methods
+- With the backup/restore process working, and leveraging the Service Manual calibration steps as clues, it should be a fairly trivial task to get the calibration process done. My only issue is this: I've run out of working analyzers to test the cal process with!! If I can get a good, working unit, I'll resume work
+- FM Sweep Gain dump/set (easy to do manually, though)
+- Coarse Sweep GainS/GainF dump/set (easy to do manually, though)
+- YIG Slope dump/set (easy to do manually, though)
+- YIG Offset dump/set (easy to do manually, though)
+- Tracking Generator calibration dump/restore
 
 To use:
 - Install your KeySight I/O libraries. I have tested with 18.1.x
