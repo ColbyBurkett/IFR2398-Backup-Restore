@@ -2,21 +2,21 @@
  After many years of on/off work, I have finally completed the Backup/Restore scripts to a point where they're usable. These two scripts perform the function of the FCAL2398 Backup/Restore options.
 
 Automatically dump to file (DONE!):
--Receiver Flatness (RXFLAT)
--0dB-50dB Tables w/all four frequency groups
--IF Attenuator (IFATT)
--RX Attenuator (RXATT)
--Span Attenuator (SPANATT)
--LOG Adjustments w/all RBW values (LOGTBL)
+- Receiver Flatness (RXFLAT)
+- 0dB-50dB Tables w/all four frequency groups
+- IF Attenuator (IFATT)
+- RX Attenuator (RXATT)
+- Span Attenuator (SPANATT)
+- LOG Adjustments w/all RBW values (LOGTBL)
 
 Automatically restore from file (DONE!):
--Unit Manufacturer/Model between IFR or LG
--Serial Number
--Receiver Flatness
--IF Attenuator
--RX Attenuator
--Span Attenuator
--LOG Adjustments
+- Unit Manufacturer/Model between IFR or LG
+- Serial Number
+- Receiver Flatness
+- IF Attenuator
+- RX Attenuator
+- Span Attenuator
+- LOG Adjustments
 
 Remaining work:
 
